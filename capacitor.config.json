@@ -7,3 +7,9 @@
     "cleartext": false
   }
 }
+server: {
+  allowNavigation: [
+    "mport.site.je",
+    "*.mport.site.je"
+  ]
+}
