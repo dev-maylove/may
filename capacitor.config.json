@@ -1,5 +1,13 @@
 {
   "appId": "com.mport.app",
   "appName": "MPorT",
-  "webDir": "www"
+  "webDir": "www",
+  "server": {
+    "url": "https://mport.site.je",
+    "cleartext": false,
+    "allowNavigation": [
+      "mport.site.je",
+      "*.mport.site.je"
+    ]
+  }
 }
