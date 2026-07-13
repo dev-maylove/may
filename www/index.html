@@ -11,15 +11,32 @@ html, body {
     height: 100%;
     background: #ffffff;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+/* Progress Bar */
+#progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 4px;
+    background: #00d5ff;
+    transition: width .1s linear;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 img {
     width: 180px;
-    animation: fadeIn .5s ease;
+    animation: fade .5s ease;
 }
 
 .loader {
@@ -29,7 +46,14 @@ img {
     border: 4px solid #e5e5e5;
     border-top: 4px solid #00d5ff;
     border-radius: 50%;
-    animation: spin 1s linear infinite;
+    animation: spin .8s linear infinite;
+}
+
+#percent {
+    margin-top: 15px;
+    color: #666;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 @keyframes spin {
@@ -38,7 +62,7 @@ img {
     }
 }
 
-@keyframes fadeIn {
+@keyframes fade {
     from {
         opacity: 0;
         transform: scale(.9);
@@ -51,17 +75,38 @@ img {
 </style>
 
 </head>
-
 <body>
 
-<img src="resources/splash.png" alt="MandalaNet.id">
+<div id="progress"></div>
 
-<div class="loader"></div>
+<div class="container">
+
+    <img src="resources/splash.png" alt="MPorT">
+
+    <div class="loader"></div>
+
+    <div id="percent">0%</div>
+
+</div>
 
 <script>
-setTimeout(() => {
-    window.location.href = "https://mport.site.je/";
-}, 2000);
+let p = 0;
+
+const bar = document.getElementById("progress");
+const txt = document.getElementById("percent");
+
+const timer = setInterval(() => {
+
+    if (p < 100) {
+        p++;
+        bar.style.width = p + "%";
+        txt.textContent = p + "%";
+    } else {
+        clearInterval(timer);
+        window.location.replace("https://mport.site.je/");
+    }
+
+}, 20);
 </script>
 
 </body>
