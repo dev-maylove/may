@@ -12,16 +12,14 @@ Aplikasi MandalaNet.id portal
   <img src="https://img.shields.io/badge/License-MIT-orange?style=for-the-badge">
 </p><p align="center">
   <strong>Internet Stable Faster</strong><br>
-  Aplikasi Android yang membungkus website <b>MPorT</b> menggunakan Capacitor dengan tampilan modern dan performa ringan.
+  Aplikasi Android Untuk MandalaNet.id<b>MPorT</b> Dengan tampilan modern dan performa ringan.
 </p>---
 
 📱 Screenshot
 
-«Ganti URL di bawah dengan screenshot aplikasi Anda.»
-
 <p align="center">
-  <img src="Screenshot_20260713_211106.jpg" width="760">
-  <img src="https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/screenshots/menu.png" width="260">
+  <img src="[Screenshot_20260713_211106.jpg](https://github.com/maylove-lov/MPorT_php/blob/ca999cdc16717f4ae7f8aeea0b1a676c657df695/SS/Screenshot_20260713_211106.jpg)" width="760">
+  <img src="https://github.com/maylove-lov/MPorT_php/blob/ca999cdc16717f4ae7f8aeea0b1a676c657df695/SS/Screenshot_20260713_211043.jpg" width="260">
 </p>---
 
 ✨ Fitur
