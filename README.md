@@ -1,10 +1,10 @@
 # <a href="https://mport.site.je/?page=paket">MPorT</a>
 Aplikasi MandalaNet.id portal
-![Logo](www/resources/icon.png)
+!
 🚀 MPorT
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/maylove-lov/MPorT_php/affa2289a6965b79d46cffa410bd4ed7343c8ba4/www/resources/icon.png" width="160" alt="MPorT Logo">
+  <img src="https://raw.githubusercontent.com/maylove-lov/MPorT_php/affa2289a6965b79d46cffa410bd4ed7343c8ba4/www/resources/icon.png" width="3000" alt="MPorT Logo">
 </p><p align="center">
   <img src="https://img.shields.io/badge/Platform-Android-green?style=for-the-badge">
   <img src="https://img.shields.io/badge/Framework-Capacitor-blue?style=for-the-badge">
@@ -20,7 +20,7 @@ Aplikasi MandalaNet.id portal
 «Ganti URL di bawah dengan screenshot aplikasi Anda.»
 
 <p align="center">
-  <img src="Screenshot_20260713_211106.jpg" width="260">
+  <img src="Screenshot_20260713_211106.jpg" width="760">
   <img src="https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/screenshots/menu.png" width="260">
 </p>---
 
