@@ -4,12 +4,10 @@
   "webDir": "www",
   "server": {
     "url": "https://mport.site.je",
-    "cleartext": false
+    "cleartext": false,
+    "allowNavigation": [
+      "mport.site.je",
+      "*.mport.site.je"
+    ]
   }
-}
-server: {
-  allowNavigation: [
-    "mport.site.je",
-    "*.mport.site.je"
-  ]
 }
