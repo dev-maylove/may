@@ -12,7 +12,7 @@ public class MainActivity extends BridgeActivity {
         super.onCreate(savedInstanceState);
 
         if (getBridge() != null && getBridge().getWebView() != null) {
-            getBridge().getWebView().setBackgroundColor(Color.CYAN);
+            getBridge().getWebView().setBackgroundColor(Color.TRANSPARENT);
         }
     }
 }
