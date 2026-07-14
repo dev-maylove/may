@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">MPorT</string>
+    <string name="title_activity_main">MPorT</string>
+    <string name="package_name">com.mandalanet.mport</string>
+    <string name="custom_url_scheme">com.mandalanet.mport</string>
+</resources>
